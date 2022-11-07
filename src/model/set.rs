@@ -31,7 +31,7 @@ pub(crate) enum SetDto {
 pub struct SetDetail {
     pub code: String,
     pub name: String,
-    #[serde(rename = "types")]
+    #[serde(rename = "type")]
     pub type_: String,
     pub block: Option<String>,
     pub gatherer_code: Option<String>,
